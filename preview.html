@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shril Carpenter — Profile Assets Preview</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      background: #0d1117;
+      color: #c9d1d9;
+      font: 15px/1.5 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 40px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 36px;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #39d353;
+      letter-spacing: .02em;
+      margin: 0 0 8px;
+    }
+    p.subtitle {
+      color: #8b949e;
+      margin: 0;
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: #8b949e;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 8px;
+      margin: 44px 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .card {
+      background: #0d1117;
+      border: 1px solid #21262d;
+      border-radius: 12px;
+      padding: 20px;
+      flex: 1 1 420px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      box-sizing: border-box;
+    }
+    .card.light {
+      background: #ffffff;
+      border-color: #d0d7de;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .tag {
+      font: 12px ui-monospace, SFMono-Regular, Consolas, monospace;
+      color: #8b949e;
+      display: block;
+      margin-bottom: 14px;
+    }
+    .card.light .tag {
+      color: #57606a;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    button {
+      background: #21262d;
+      color: #c9d1d9;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 6px 14px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    button:hover {
+      background: #30363d;
+      border-color: #39d353;
+      color: #39d353;
+    }
+    .missing {
+      color: #8b949e;
+      font-style: italic;
+      font-size: 13px;
+    }
+    .grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 20px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shril Carpenter — Profile Assets Preview</h1>
+    <p class="subtitle">Visual inspection for both GitHub Dark and GitHub Light themes</p>
+  </header>
+
+  <h2>
+    <span>1. Portrait & Typing Banner</span>
+    <button id="replay">Replay portrait load-in</button>
+  </h2>
+  <div class="row">
+    <div class="card">
+      <span class="tag">assets/portrait.svg (Dark Theme)</span>
+      <div style="text-align: center;">
+        <img class="portrait" src="assets/portrait.svg" width="280" style="margin: 0 auto 16px;" alt="Portrait dark">
+        <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=450&lines=Shril+Carpenter;Data+Science+%26+Analytics;Machine+Learning+Developer;01100011+01101111+01100100+01100101" alt="Typing animation" style="margin: 0 auto;">
+      </div>
+    </div>
+    <div class="card light">
+      <span class="tag">assets/portrait.svg (Light Theme)</span>
+      <div style="text-align: center;">
+        <img class="portrait" src="assets/portrait.svg" width="280" style="margin: 0 auto 16px;" alt="Portrait light">
+        <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=216e39&center=true&vCenter=true&width=450&lines=Shril+Carpenter;Data+Science+%26+Analytics;Machine+Learning+Developer;01100011+01101111+01100100+01100101" alt="Typing animation" style="margin: 0 auto;">
+      </div>
+    </div>
+  </div>
+
+  <h2>2. Skill Radar (Hand-Authored Skills)</h2>
+  <div class="row">
+    <div class="card">
+      <span class="tag">assets/radar-dark.svg</span>
+      <img src="assets/radar-dark.svg" width="440" alt="Skill radar dark">
+    </div>
+    <div class="card light">
+      <span class="tag">assets/radar-light.svg</span>
+      <img src="assets/radar-light.svg" width="440" alt="Skill radar light">
+    </div>
+  </div>
+
+  <h2>3. Language Radar (GitHub Repositories Live Data)</h2>
+  <div class="row">
+    <div class="card">
+      <span class="tag">assets/radar-langs-dark.svg</span>
+      <img src="assets/radar-langs-dark.svg" width="440" alt="Language radar dark">
+    </div>
+    <div class="card light">
+      <span class="tag">assets/radar-langs-light.svg</span>
+      <img src="assets/radar-langs-light.svg" width="440" alt="Language radar light">
+    </div>
+  </div>
+
+  <h2>4. Self-Hosted GitHub Statistics Card</h2>
+  <div class="row">
+    <div class="card">
+      <span class="tag">assets/card-stats-dark.svg</span>
+      <img src="assets/card-stats-dark.svg" width="480" alt="Stats card dark">
+    </div>
+    <div class="card light">
+      <span class="tag">assets/card-stats-light.svg</span>
+      <img src="assets/card-stats-light.svg" width="480" alt="Stats card light">
+    </div>
+  </div>
+
+  <h2>5. Featured Project Cards (2×2 Grid)</h2>
+  <div class="row">
+    <div class="card" style="flex: 1 1 100%;">
+      <span class="tag">Dark Mode Cards</span>
+      <div class="grid-2x2">
+        <img src="assets/card-PriceNexus-dark.svg" alt="PriceNexus">
+        <img src="assets/card-RannSaathi-dark.svg" alt="RannSaathi">
+        <img src="assets/card-CivicIQ-dark.svg" alt="CivicIQ">
+        <img src="assets/card-StadiumFlow-dark.svg" alt="StadiumFlow">
+      </div>
+    </div>
+    <div class="card light" style="flex: 1 1 100%;">
+      <span class="tag">Light Mode Cards</span>
+      <div class="grid-2x2">
+        <img src="assets/card-PriceNexus-light.svg" alt="PriceNexus">
+        <img src="assets/card-RannSaathi-light.svg" alt="RannSaathi">
+        <img src="assets/card-CivicIQ-light.svg" alt="CivicIQ">
+        <img src="assets/card-StadiumFlow-light.svg" alt="StadiumFlow">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('replay').onclick = () => {
+      document.querySelectorAll('img.portrait').forEach(img => {
+        img.src = 'assets/portrait.svg?' + Date.now();
+      });
+    };
+  </script>
+
+</body>
+</html>

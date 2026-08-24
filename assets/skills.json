@@ -1,0 +1,12 @@
+{
+  "title": "Skill Radar",
+  "axes": [
+    { "label": "Python", "value": 90 },
+    { "label": "Machine Learning", "value": 86 },
+    { "label": "Data Analytics", "value": 88 },
+    { "label": "Deep Learning / AI", "value": 80 },
+    { "label": "SQL & Databases", "value": 78 },
+    { "label": "React & Frontend", "value": 75 },
+    { "label": "DSA & Problem Solving", "value": 82 }
+  ]
+}

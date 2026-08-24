@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "repo": "PriceNexus",
+      "description": "Full-Stack Pricing Intelligence Dashboard with React, Tailwind CSS, Power BI integration and automated CSV/NLP analytics pipeline."
+    },
+    {
+      "repo": "RannSaathi",
+      "description": "Sustainable tourism decision intelligence platform for the fragile desert ecology and artisan communities of Kutch."
+    },
+    {
+      "repo": "CivicIQ",
+      "description": "AI-powered civic education platform simplifying election systems through interactive simulations, games, and smart AI assistant."
+    },
+    {
+      "repo": "StadiumFlow",
+      "description": "Cyber-luxury smart stadium command center built to revolutionize fan experience and operational efficiency using dynamic UI and AI."
+    }
+  ]
+}
