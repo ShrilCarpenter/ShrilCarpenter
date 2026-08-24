@@ -17,7 +17,7 @@
 
 <!-- SOCIALS -->
 <a href="https://linkedin.com/in/shrilcarpenter"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:shrilcarpenter@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="mailto:sbhai20071234@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://leetcode.com/u/ShrilCarpenter"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
 <a href="https://github.com/ShrilCarpenter"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
@@ -46,7 +46,7 @@ Hi, I'm **Shril Carpenter**. I'm an Information Technology undergraduate special
 
 ## `~/` toolbox
 
-<img src="https://skillicons.dev/icons?i=py,sklearn,pytorch,tensorflow,mysql,postgres,mongodb,react,js,ts,tailwind,git,github,vscode,postman&perline=15" alt="tech stack">
+<img src="https://skillicons.dev/icons?i=py,sklearn,pytorch,tensorflow,opencv,c,cpp,mysql,postgres,mongodb,react,linux,git,github,vscode&perline=15" alt="tech stack">
 
 </div>
 
