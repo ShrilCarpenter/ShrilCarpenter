@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="217.98622043679202" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="217.98622043679202" y="0" width="79.32871932991831" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="297.3149397667103" y="0" width="60.31866723035525" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="357.63360699706556" y="0" width="56.88336829326627" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="414.51697529033186" y="0" width="42.93362441978897" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="457.45059971012085" y="0" width="1.6775772048331508" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="459.128176914954" y="0" width="0.5302752602948624" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="459.65845217524884" y="0" width="0.34154782475113293" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="217.85670554181496" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="217.85670554181496" y="0" width="79.28158676010682" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="297.1382923019218" y="0" width="60.556134927782345" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="357.6944272297041" y="0" width="56.84957146218363" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="414.54399869188774" y="0" width="42.908115725493644" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="457.45211441738144" y="0" width="1.6765804847878907" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="459.1286949021693" y="0" width="0.5299602011846654" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="459.65865510335396" y="0" width="0.3413448966460277" height="8" fill="#384d54"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -41,7 +41,7 @@
                             </div>
                             <small>
                                 <div>758 kB</div>
-                                <div>47.39%</div>
+                                <div>47.36%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -52,8 +52,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>209 kB</div>
-                                <div>13.11%</div>
+                                <div>210 kB</div>
+                                <div>13.16%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>276 kB</div>
-                                <div>17.25%</div>
+                                <div>17.24%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -103,7 +103,7 @@
                             </div>
                             <small>
                                 <div>198 kB</div>
-                                <div>12.37%</div>
+                                <div>12.36%</div>
                             </small>
                         </div>
                         <div class="field language details">
